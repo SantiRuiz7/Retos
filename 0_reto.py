@@ -17,7 +17,7 @@ string2 = "buzz"
 string3 = "fizzbuzz"
 
 for i in range(1, 101):
-    
+
     if i % 3 == 0 and i % 5 == 0:
        print(string3)
     elif i % 3 == 0 :
@@ -26,3 +26,5 @@ for i in range(1, 101):
        print(string2)
     else: 
       print(i)
+
+# Prestar atención con el orden de las condiciones.
